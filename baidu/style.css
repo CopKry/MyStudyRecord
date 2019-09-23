@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.wrap{
+    min-width: 588px;
+    width: 100%;
+}
+
+a{
+    color:black;   
+}
+
+div.top{
+    width: 100%;
+    height: 43px;
+}
+
+
+div.nav{
+    float: right;
+    height:24px;
+    width: 456px;
+    margin: 19px 0px 5px;
+    padding-right: 15px;
+    
+}
+
+div.nav a:nth-child(1),div.nav a:nth-child(2),
+div.nav a:nth-child(3),div.nav a:nth-child(4),
+div.nav a:nth-child(5),div.nav a:nth-child(6){
+    margin-left: 14px;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: bold;
+    display: inline-block;
+    height: 24px;
+    text-align: center;
+}
+
+div.nav a:hover{
+    color:blue;
+}
+
+a.more{
+    font-size: 13px;
+    padding:3px;
+    color: white;
+    background:#3388FF;
+    display: inline-block;
+    height:21px;
+    margin-left:19px;
+    margin-right:2px;
+    text-decoration:none;
+}
+
+a.login{
+    margin-left: 14px;
+    font-size: 13px;
+    font-family: arial;
+    height: 24;
+    display: inline-block;
+    height: 24px;
+    text-align: center;
+}
+
+a.setting{
+    margin-left: 14px;
+    font-size: 13px;
+    font-family: arial;
+    height: 24;
+    display: inline-block;
+    height: 24px;
+    text-align: center;
+}
+
+div.logo{
+    margin-top: 30px;
+    height: 132px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(bd_logo.png);
+    display: flex;
+    justify-content:center;
+}
+
+.logo a{
+    width: 400px;
+    opacity:0;
+}
+
+input.search-text{
+    margin: 8px 0px 0px 7px;
+    height:18px;
+    width: 496px;
+    outline: none;
+    border: none;
+}
+
+div.search-box{
+    margin-top:24px;
+    height: 34px;
+    border: 1px solid rgb(184, 184, 184);
+    width: 540px;
+}
+
+
+button.camera{
+    background: white;
+    margin-top: 8px;
+    margin-right: 10px;
+    float:right;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    background-image: url(camera.png);
+    background-position: top;
+    background-size: cover;
+    cursor: pointer;
+}
+
+button.camera:hover{
+    background-position: bottom;
+}
+
+button.search-btn{
+    outline: none;
+    margin-top: 24px;
+    float: right;
+    border: none;
+    background: #3385FF;
+    color:white;
+    height:36px; 
+    width: 100px;
+    cursor: pointer;
+    font-size:15px;
+}
+div.code{
+    margin-top: 137px;
+    width: 100%;
+    height: 167px;
+    display:flex;
+    justify-content: center;
+}
+
+div.center{
+    width: 150px;
+    height: 160px;
+    flex-direction: column;
+}
+
+div.put-code-image{
+    margin-left: 16px;
+    margin-bottom: 10px;
+    width: 89px;
+    height: 89px;
+    background-image: url(erw.png);
+    background-repeat: none;
+    background-position: center;
+    background-size:contain;
+    padding:10px;
+}
+
+p.intersting{
+    margin-left: 16px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-family: arial;
+    color: #333333;
+}
+
+p.intersting2{
+    margin-top:5px;
+    font-size: 14px;
+    color: rgb(196,181,196);
+    font-family: arial;
+}
+
+div.search-center{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+div.footer{
+    margin-top:32px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+p.p-footer1,p.p-footer2{
+    font-size: 12px;
+    font-family: arial;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+}
+
+p.p-footer1 a,p.p-footer2 a{
+    font-size: 12px;
+    font-family: arial;
+    color: #999999;
+}
+
+p.p-footer1 a{
+    margin-left: 28px;
+}
+
+p.p-footer2{
+    margin-top: 9px;
+    line-height:14px;
+}
+
+a.last-a{
+    margin-left: 26px;
+}
+
+a.must{
+    margin-left:5px;
+}
+
+a.idea{
+    margin: 0px 5px;
+}
+
+i.ling{
+    background-image: url(ling.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 18px;
+}
+
+i.zhang{
+    background-image: url(zhang.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 17px;
+    background-size:contain;
+}

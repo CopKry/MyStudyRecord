@@ -1,0 +1,444 @@
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td{
+    margin: 0;
+    padding:0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img{
+    border:none;
+    outline: none;
+}
+
+ul,ol{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.clear-hidden{
+    overflow: hidden;
+}
+
+.html{
+    width: 100%;
+    height: auto;
+    min-width: 1240px;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background:rgb(17, 17, 17);
+    line-height: 70px;
+}
+
+.wrap{
+    width: 1240px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.top nav ul li a{
+    color: white;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.top nav a{
+    padding-right: 60px;
+}
+
+.search ul li{
+    margin-left: 17px;
+}
+
+.search ul li:first-child{
+    margin-left: 33px;
+}
+
+.logo-div{
+    height: 300px;
+    position: relative;
+    background: white url(../images/logo-bg.png) no-repeat center;
+}
+
+.dandelion_logo{
+    position: absolute;
+    top:95px;
+    left: 332px;
+    display: block;
+    height: 112px;
+    width: 573px;
+    background: url(../images/dandelionLogo.png);
+}
+
+.start-div{
+    height: 910px;
+    position: relative;
+}
+
+.start-section{
+    background: white;
+    position: absolute;
+    top: 47%;
+    left: 19%;
+    padding:60px 120px; 
+    width: 520px;
+    height: 360px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+.start-section p{
+    text-align: center;
+}
+
+.start-section p:nth-child(1){
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "微软雅黑"
+}
+
+.start-section p:nth-child(2){
+    margin-bottom: 45px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "微软雅黑"
+}
+
+.start-section p:nth-child(3){
+    margin-bottom: 40px;
+    font-size: 13px;
+    color: rgb(138, 138, 138);
+    text-decoration: underline;
+}
+
+.start-section p:nth-child(4){
+    margin-bottom: 37px;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(138, 138, 138);
+}
+
+.start-section a:first-child{
+    color: rgb(138, 138, 138);
+}
+
+.section-last-a{
+    text-align: center;
+    line-height: 52px;
+    display: block;
+    width: 255px;
+    height: 52px;
+    border: 1px solid black;
+    margin:0  auto;
+    color: black;
+    font-weight: bold;
+}
+
+.start-div-bottom-div{
+    margin-top: 85px;
+}
+
+.start-div-bottom-div i{
+    display: inline-block;
+    width: 379px;
+    height: 330px;
+}
+
+.start-div-bottom-div a{
+    color: black;
+}
+
+.start-div-bottom-div i p{
+    margin: 148px auto 0;
+    font-style: normal;
+    height: 40px;
+    width: 165px;
+    text-align: center;
+    background: white;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+}
+
+.lifestyle-p{
+    margin-top: 170px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    text-decoration: underline;
+}
+
+.about-me{
+    background: url(../images/about-me.png) no-repeat center;
+    margin-right: 45px;
+}
+
+.pinterest{
+    background: url(../images/pinterset-bg.png) no-repeat center;
+    margin-right: 45px;
+}
+
+.recipes{
+    background: url(../images/recipes-bg.png) no-repeat center;
+}
+
+.margin-top-div{
+    margin-top: 45px;
+}
+
+.title-p{
+    text-align: center;
+    font-size: 35px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.title-bottom-p{
+    margin-top: 20px;
+}
+
+.under img{
+    margin-top: 75px;
+}
+
+.under a{
+    color: black;
+}
+
+.content{
+    margin-top: 65px;
+    color:rgb(90, 90, 90);
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.div-footer{
+    margin-top: 80px; 
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+}
+
+.div-footer p{
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+}
+
+.div-footer a{
+    margin-left: 27%;
+    display: inline-block;
+    height: 70px;
+    width: 355px;
+    background: black;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+}
+
+.nine-day img{
+    margin-top:60px;
+}
+
+.div-cloud{
+    margin-top: 150px;
+}
+
+.cloud-i{
+    display: block;
+    width: 100%;
+    height: 318px;
+    background: url(../images/cloud-img.png) no-repeat center;
+    color: white;
+    text-align: center;
+    line-height: 318px;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.more-div a{
+    color: rgb(92, 92, 91);
+}
+
+.more-div ul li:nth-child(2) p{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 14px;
+    color: rgb(92, 92, 91);
+    font-family: "微软雅黑";
+    text-decoration: underline;
+}
+
+.more-div ul li:nth-child(3) p{
+    font-size: 26px;
+    color: rgb(92, 92, 91);
+    font-weight: bold;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+
+.more-div ul:nth-child(1),
+.more-div ul:nth-child(2){
+    display: block;
+    margin-top: 135px;
+}
+
+.more-div ul:nth-child(3),
+.more-div ul:nth-child(4){
+    display: block;
+    margin-top: 120px;
+}
+
+.more-div ul li:nth-child(4){
+    text-align: center;
+}
+
+.more-div ul li:nth-child(4) a{
+    margin-top:  25px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    background: black;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+.load-more{
+    margin-top: 110px;
+    height: 73px;
+    border-top: 1px solid rgb(111, 111, 111);
+    border-bottom: 1px solid rgb(111, 111, 111);
+}
+
+.load-more{
+    height: 73px;
+    line-height: 73px;
+    text-align: center;
+    color: rgb(91, 91, 91);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.news p:first-child{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    text-align: center;
+    margin-top: 120px;
+}
+
+.news p:nth-child(2){
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    margin-top: 10px;
+}
+
+.email{
+    margin: 62px auto 0px;
+    border: 1px solid black;
+    width: 654px;
+    height: 67px;
+}
+
+.email [type="text"]{
+    width: 539px;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+::-webkit-input-placeholder{
+    color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+::-moz-placeholder{
+    color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+:-ms-input-placeholder{
+    color: rgb(191, 191, 191);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email [type="submit"]{
+    background: white;
+    border: none;
+    height: 67px;
+    border-left: 1px solid black;
+    width: 90px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.email [type="submit"]:hover{
+    cursor: pointer;
+}
+
+form{
+    text-align: right;
+}
+
+.last-bg{
+    margin-top: 155px;
+    height: 323px;
+    width: 100%;
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: contain;
+}
+
+footer{
+    padding:50px;
+}
+
+footer p{
+    margin-bottom: 25px;
+    padding-right: 15px;
+    color: rgb(40,40 , 40);
+}

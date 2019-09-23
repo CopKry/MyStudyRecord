@@ -1,0 +1,541 @@
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td{
+    margin: 0;
+    padding:0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+    color: #0000dd;
+    font-family: Consolas, "Courier New", Courier, monospace;
+}
+
+html{
+    min-width: 500px;
+    background: rgb(252, 253, 248);
+}
+
+img{
+    border: none;
+    outline: none;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+.section-div ol,
+.section-div ul{
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding:0 40px;
+}
+
+h3{
+    display: block;
+    font-size: 16px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.section-div h3{
+    margin:25px 0 0;
+}
+
+.section-div h4{
+    margin: 25px 0 0;
+    font-size: 14px;
+}
+
+strong{
+    font-size: 15px;
+}
+
+.section-div li{
+    margin-top: 3px;
+    font-family: PingFangSC-Regular, Verdana, Arial, '微软雅黑','宋体';
+    font-size: 15px;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.section-div ol{
+    list-style-type: decimal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.left{
+    float: left
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo-a{
+    display: inline-block;
+    height: 90px;
+    width: 327px;
+    background: url(../images/w3clogo.png) no-repeat top;
+    font-size: cover;
+}
+
+.logo-a:hover{
+    background: url(../images/w3clogo.png) no-repeat bottom;
+    font-size: cover;
+}
+
+header nav{
+    display: block;
+    height: 48px;
+}
+
+.top-nav{
+    height: 48px;
+    width: 100%;
+    background: rgb(232, 231, 227);
+}
+
+.top-nav-a{
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+    display:block;
+    padding:0 32px 0 30px;
+    background: rgb(232, 231, 237);
+    color: rgb(119, 119, 119);
+}
+
+.top-nav li:nth-child(4) a{
+    letter-spacing: 3px;
+}
+
+.now-top-nav-a,
+.top-nav-a:hover{
+    line-height: 48px;
+    height: 48px;
+    display:block;
+    padding:0 32px 0 30px;
+    background: rgb(63, 63, 63);
+    color: white;
+}
+
+.middle-div{
+    margin-top: 22px;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.left-nav{
+    display: block;
+    height: auto;
+}
+
+.left-nav ul{
+    display: block;
+    width: 180px;
+}
+
+.now-left-nav-a{
+    background: rgb(189, 45, 48);
+    color: white;
+}
+
+.left-nav-ul h2{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    padding: 10px 0px 5px 10px;
+}
+
+.left-nav-a,
+.now-left-nav-a{
+    display: block;
+    width: 165px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    padding: 5px 0px 5px 15px;
+}
+
+.left-nav-a:hover{
+    background: rgb(170, 170, 170);
+    color: white;
+}
+
+.left-li{
+    margin: 25px 10px 25px;
+}
+
+.left-nav-about{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #0479A7;
+    font-weight: bold;
+}
+
+.left-nav-about:hover{
+    text-decoration: underline;
+}
+
+.left-nav-ul li{
+    width: 100%;
+}
+
+.wrap{
+    width: 1219px;
+    margin: 0 auto;
+}
+
+.in-wrap{
+    width: 810px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+
+.btn{
+    padding: 30px 0 35px;
+}
+
+.btn a{
+    line-height: 30px;
+    font-size: 13px;
+    font-family: "宋体";
+    display: inline-block;
+    height: 30px;
+    width: 105px;
+    margin-right: 22px;
+    background: rgb(243, 243, 243);
+    border:1px solid rgb(222, 222, 222);
+}
+
+.btn a p{
+    display: inline;
+}
+
+.left-tou{
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    background: url(../images/lefttou.png) no-repeat center;
+    background-size: cover;
+}
+
+.right-tou{
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    background: url(../images/righttou.png) no-repeat center;
+    background-size: cover;
+}
+
+.btn a:last-child{
+    text-align: right;
+}
+
+.btn a:hover{
+    border:1px solid rgb(198, 198, 198);
+}
+
+.content{
+    padding-top: 8px;
+    min-height: 2185px;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+}
+
+.section-h2{
+    font-size: 30px;
+    color: #3f3f3f;
+    font-family: "微软雅黑";
+    font-weight: normal;
+}
+
+.section-a:hover{
+    color: rgb(210,10,10);
+    text-decoration: underline;
+}
+
+.section-div{
+    border-top: 1px solid rgb(170, 170, 170);
+    padding: 30px 0 35px;
+}
+
+.section-div p{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 150%;
+}
+
+.section-a{
+    color: rgb(144, 11, 9);
+    font-family: "微软雅黑";
+    text-decoration: underline;
+}
+
+.last-div{
+    border-top: 1px solid rgb(170, 170, 170);
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.book{
+    display: block;
+    margin: 0 auto;
+    width: 136px;
+    height: 66px;
+    background: url(../images/book.png) no-repeat center;
+}
+
+.shiyan{
+    margin: 0 auto;
+    display: block;
+    width: 136px;
+    height: 66px;
+    background: url(../images/shiyan.png) no-repeat center;
+}
+
+.test{
+    margin: 0 auto;
+    display: block;
+    width: 136px;
+    height: 66px;
+    background: url(../images/test.png) no-repeat center;
+}
+
+.advertising-right-top{
+    width: 180px;
+}
+
+.advertising{
+    width: auto;
+    height: auto;
+}
+
+.advertising-right-top ul{
+    padding: 22px 0px;
+}
+
+.advertising-right-bottom{
+    width: 180px;
+}
+
+.advertising-right-bottom a{
+    display: inline-block;
+    padding: 22px 10px 0px;
+}
+
+.clear2{
+    overflow: hidden;
+}
+
+footer{
+    padding: 16px 0 0;
+    background: rgb(232, 231, 227)
+}
+
+footer p{
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+}
+
+footer a{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.footer-p-first{
+    background: transparent url(../images//alert.png) no-repeat;
+    background-position: 243px 2px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+footer a:last-child{
+    color: black;
+    margin-left: 20px;
+}
+
+footer p:last-child{
+    font-size: 14px;
+    padding-top: 15px;
+    margin: 15px 0 30px;
+    background: rgb(252, 253, 248);
+}
+
+.ul-p-title{
+    width: 100%;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    background: rgb(232, 231, 227);
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    width: 100%;
+}
+
+pre{
+    width: 765px;
+    margin: 15px 0 0 0;
+    padding: 20px;
+    border: 1px dotted #785;
+    background: #f5f5f5;
+    line-height: 1.4;
+    font-family: Consolas;
+}
+
+pre span{
+    color: #999;
+}
+
+.section-div img{
+    margin: 25px 0 0 25px;
+}
+
+.tip span{
+    color: #ff9955;
+    font-weight: bold;
+}
+
+.import span{
+    color: #dd0000;
+    font-weight: bold;
+}
+
+.note span{
+    font-weight: bold;
+}
+
+.tiy a{
+    display: inline-block;
+    padding: 8px 18px;
+    background: rgb(233, 104, 107);
+    color: white;
+    border-radius: 2px;
+}
+
+.tiy a:nth-child(2){
+    margin-left: 6px;
+}
+
+.tiy a:hover{
+    background: rgb(186,53,55);
+}
+
+.dataintable{
+    margin-top: 15px;
+    width: 100%;
+    border-right:  1px solid #aaa;
+    border-bottom:  1px solid #aaa;
+}
+
+.dataintable a{
+    font-family: PingFangSC-Regular, Verdana, Arial, 微软雅黑, 宋体;
+    font-size: 15px;
+}
+
+.dataintable th{
+    border-collapse:collapse;
+    padding: 9px;
+    text-align: left;
+    background: rgb(63, 63, 63);
+    color: white;
+}
+
+.dataintable td{
+    padding: 9px;
+}
+
+.dataintable td,
+.dataintable th{
+    border-left: 1px solid #aaa;
+    border-top:  1px solid #aaa;
+}
+
+.dataintable tr{
+    background: white;
+}
+
+.dataintable tr:nth-child(3),
+.dataintable tr:nth-child(5),
+.dataintable tr:nth-child(7),
+.dataintable tr:nth-child(9),
+.dataintable tr:nth-child(11),
+.dataintable tr:nth-child(13),
+.dataintable tr:nth-child(15),
+.dataintable tr:nth-child(17),
+.dataintable tr:nth-child(19),
+.dataintable tr:nth-child(21){
+    background: rgb(245, 245, 245);
+}
+
+.intro-div{
+    padding: 45px 0;
+}
+
+.intro-div strong{
+    color: #3f3f3f;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    line-height: 150%;
+}
+
+.intro-div p:first-child{
+    margin: 0;
+}
+
+dl{
+    display: block;
+    margin: 10px 0 0 0;
+    text-align: left;
+}
+
+dt{
+    margin: 15px 0 5px;
+}
+
+.none-broder-th th{
+    border: none;
+}

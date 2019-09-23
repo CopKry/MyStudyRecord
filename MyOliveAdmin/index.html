@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalResponsive.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>
+        Olive Admin - Flat & Responsive Bootstrap Admin Template
+    </title>
+</head>
+
+<body>
+    <section id="container">
+        <!-- 头部开始 -->
+        <header id="header" class="header blue-bg">
+            <div class="header-left">
+                <div class="siderbar-box">
+                    <div id='tooltips' class="fa fa-bars tooltips" onclick="tooltipsClick()"></div>
+                </div>
+                <a class="logo" href="index.html">
+                    橄榄 <span>后台管理</span>
+                </a>
+                <!-- 信息导航栏 -->
+                <nav class="notify-row">
+                    <ul class="top-menu">
+                        <!-- 导航栏第一 -->
+                        <li id="d1" class="dropdown">
+                            <a id='a1' href="javascript:;">
+                                <i class="fa fa-tasks"></i><span class="badge bg-success">6</span>
+                            </a>
+                            <ul id="u1" class="dropdown-menu">
+                                <li>
+                                    <p class="blue">你有6个待完成的任务</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>仪表板v1.3</div>
+                                        <div class="scroll-out">
+                                            <div class="dashboard scroll-in set40"></div>
+                                            <span class="percent ">40%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>数据库更新</div>
+                                        <div class="scroll-out">
+                                            <div class="database-up scroll-in set60"></div>
+                                            <span class="percent ">60%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>Iphone开发</div>
+                                        <div class="scroll-out">
+                                            <div class="iphone-de scroll-in set87"></div>
+                                            <span class="percent ">87%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>移动应用开发</div>
+                                        <div class="scroll-out">
+                                            <div class="M-app scroll-in set33"></div>
+                                            <span class="percent ">33%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>仪表板v1.3</div>
+                                        <div class="scroll-out">
+                                            <div class="dashboard3 scroll-in set45"></div>
+                                            <span class="percent ">45%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        查看所有任务
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <!-- 导航栏第二 -->
+                        <li id="d2" class="dropdown">
+                            <a id='a2' href="javascript:;">
+                                <i class="fa fa-envelope-o"></i><span class="badge bg-important">5</span>
+                            </a>
+                            <ul id="u2" class="dropdown-menu messages">
+                                <li>
+                                    <p class="blue">你有5条新消息</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">查迪·迪亚</span><span class="time">刚刚</span>
+                                            </div>
+                                            <span class="message-span">你好，这是一个味精的例子。</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini2.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">帕斯·贾尼</span><span class="time">10分钟前</span>
+                                            </div>
+                                            <span class="message-span">嗨，兄弟你好吗？</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini3.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">杰·巴德莱</span><span class="time">三小时前</span>
+                                            </div>
+                                            <span class="message-span">这是一个很棒的仪表盘。</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini4.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">布鲁德·巴德莱</span><span class="time">刚刚</span>
+                                            </div>
+                                            <span class="message-span">你好，这里是都市实验室</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">查看所有消息</a></li>
+                            </ul>
+
+                        </li>
+                        <!-- 导航栏第三 -->
+                        <li id="d3" class="dropdown">
+                            <a id='a3' href="javascript:;">
+                                <i class="fa fa-bell-o"></i><span class="badge bg-warning">7</span>
+                            </a>
+                            <ul id='u3' class="dropdown-menu notifications">
+                                <li>
+                                    <p class="blue">你有7个新通知</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                                        服务器# 3超载。34分钟前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-warning"><i class="fa fa-bell"></i></span>
+                                        服务器#10没有响应。一个小时前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                                        数据库超载24%。4小时前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-success"><i class="fa fa-plus"></i></span>
+                                        新用户注册。刚刚
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-primary"><i class="fa fa-bullhorn"></i></span>
+                                        应用程序错误。十分钟前
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">查看所有消息</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="top-nav">
+                    <ul class="top-menu">
+                        <li>
+                            <input class="search" type="text" placeholder="搜索">
+                        </li>
+                        <li id="d4" class="dropdown">
+                            <a id='a4' class="top-right-a" href="javascript:;">
+                                <img src="images/avatar1_small.jpg" alt="avatar-small">
+                                <span class="username">普尔惠</span>
+                                <b class="bottom-arrows"></b>
+                            </a>
+                            <ul id='u4' class="dropdown-menu user">
+                                <li class="profile">
+                                    <a href="javascript:;">
+                                        <i class="fa fa-suitcase"></i>
+                                        配置文件
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="fa fa-cog"></i>
+                                        系统设置
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="fa fa-bell-o"></i>
+                                        通知消息
+                                    </a>
+                                </li>
+                                <li class="log-out">
+                                    <a href="login.html">
+                                        <i class="fa fa-key"></i>
+                                        退出登录
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- 左边导航栏 -->
+        <aside>
+            <div id="sidebar" class="nav-collapse">
+                <ul class="sidebar-menu">
+                    <!-- 仪表盘 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a click" href="index.html">
+                            <i class="fa fa-dashboard"></i>
+                            仪表盘
+                        </a>
+                        <ul class="sub" style="display: none"></ul>
+                    </li>
+                    <!-- 图版 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(0)">
+                            <i class="fa fa-laptop"></i>
+                            图版
+                            <span class="label label-success">4</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="javascript:;">
+                                    空白页面
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    横向菜单条
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    语言栏
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    电子邮件模板
+                                </a></li>
+                        </ul>
+                    </li>
+                    <!-- UI元素 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(1)">
+                            <i class="fa fa-book"></i>
+                            UI元素
+                            <span class="label label-info">7</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="general.html">一般元素</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">按钮元素</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">小工具</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">范围滑块</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可嵌套列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">树视图列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">字体图标</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 组件 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(2)">
+                            <i class="fa fa-cogs"></i>
+                            组件
+                            <span class="label label-primary">5</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">网格组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">日历组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">画廊组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">待办事项列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可拖动组件</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 表单的东西 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(3)">
+                            <i class="fa fa-tasks"></i>
+                            表单的东西
+                            <span class="label label-info">7</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">表单组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">高级组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">表单向导</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">表单验证</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Dropzone文件上传</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">行内编辑器</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">多文件上传</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 数据表 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(4)">
+                            <i class="fa fa-th"></i>
+                            数据表
+                            <span class="label label-inverse">5</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">基础表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">响应表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">动态表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">高级表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可编辑表</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 邮件 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(5)">
+                            <i class="fa fa-envelope"></i>
+                            邮件
+                            <span class="label label-danger">2</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">收件箱</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">邮件详情</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 图表 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(6)">
+                            <i class="fa fa-bar-chart-o"></i>
+                            图表
+                            <span class="label label-warning">4</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="morris.html">莫里斯图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Chartjs图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Flot图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">xChart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 产品 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(7)">
+                            <i class="fa fa-shopping-cart"></i>
+                            产品
+                            <span class="label label-success">2</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">列表视图</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">控件</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 谷歌地图 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a href="javascript:;"><i class="fa fa-map-marker"></i>谷歌地图</a>
+                    </li>
+                    <!-- 额外页面 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(8)">
+                            <i class="fa fa-glass"></i>
+                            额外页面
+                            <span class="label label-primary">10</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">空白页面</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">锁定屏幕</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">配置文件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">商业发票</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">查询结果</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">定价表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">大事年表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">404错误</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">500错误</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 登录页面 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a href="login.html"><i class="fa fa-user"></i>登录页面</a>
+                    </li>
+                    <!-- 多层菜单 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(9)">
+                            <i class="fa fa-sitemap"></i>
+                            多层菜单
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">菜单项一</a>
+                            </li>
+                            <li>
+                                <a class="sub-btn-a" href="javascript:;" onclick="showSub(10)">菜单项二
+                                    <span class="label label-primary no-position">1</span>
+                                    <span class="dcjq-icon"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="javascript:;">选项2.1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(11)">菜单项三
+                                            <span class="label label-primary no-position">3</span>
+                                            <span class="dcjq-icon"></span>
+                                        </a>
+                                        <ul class="sub">
+                                            <li>
+                                                <a href="javascript:;">选项3.1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">选项3.2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">选项3.3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- 右边部分内容 -->
+        <section id='main-content' style="margin-left: 210px">
+            <section class="wrapper">
+                <div class="row state-overview">
+                    <div class="col-lg-3">
+                        <section class="panel">
+                            <div class="value">
+                                <h1 id="c1" class="count"></h1>
+                                <p>
+                                    总销售额
+                                </p>
+                            </div>
+                            <div class="symbol"><i class="fa fa-tags blue"></i></div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3">
+                        <section class="panel">
+                            <div class="value">
+                                <h1 id="c2" class="count"></h1>
+                                <p>
+                                    利润总额
+                                </p>
+                            </div>
+                            <div class="symbol"><i class="fa fa-money red"></i></div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3">
+                        <section class="panel">
+                            <div class="value">
+                                <h1 id="c3" class="count"></h1>
+                                <p>
+                                    新的用户
+                                </p>
+                            </div>
+                            <div class="symbol"><i class="fa fa-user yellow"></i></div>
+                        </section>
+                    </div>
+                    <div class="col-lg-3">
+                        <section class="panel">
+                            <div class="value">
+                                <h1 id="c4" class="count">0</h1>
+                                <p>
+                                    新的订单
+                                </p>
+                            </div>
+                            <div class="symbol"><i class="fa fa-shopping-cart purple"></i></div>
+                        </section>
+                    </div>
+                </div>
+                <div id="morris">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="panel terquest-chart">
+                                <div class="panel-body chart-texture">
+                                    <div class="chart ">
+                                        <div class="heading">
+                                            <span>星期五</span>
+                                            <strong>657美元 | 55%</strong>
+                                        </div>
+                                        <div class="sparkline">
+                                            <div id="terquestChart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart-title">
+                                    <span class="title">新的收入</span>
+                                    <span class="value">
+                                        <a class="active" href="javascript:;">
+                                            市场
+                                        </a>|
+                                        <a href="javascript:;">
+                                            本地
+                                        </a>|
+                                        <a href="javascript:;">
+                                            在线
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="panel green-chart">
+                                <div class="panel-body green-texture">
+                                    <div class="chart ">
+                                        <div class="heading">
+                                            <span>六月</span>
+                                            <strong>23天 | 65%</strong>
+                                        </div>
+                                        <div class="sparkline">
+                                            <div id="greenChart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chart-title">
+                                    <span class="title">收入总额</span>
+                                    <span class="value">
+                                        $, 50,23,561
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="tiles facebook-tile">
+                                <i class="fa fa-facebook icon-lg-size"></i>
+                                <h4><a href="javascript:;">10千点赞量</a></h4>
+                            </div>
+                            <div class="tiles twitter-tile">
+                                <i class="fa fa-twitter icon-lg-size"></i>
+                                <h4><a href="javascript:;">2千花朵数</a></h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <section class="panel pro-charts">
+                                <header class="panel-heading">
+                                    利润(USD)
+                                </header>
+                                <div class="panel-body">
+                                    <div id="hero-area"></div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <section class="panel person">
+                            <div class="panel-body">
+                                <a class="task-thumb" href="javascript:;">
+                                    <img src="images/avatar1.jpg" alt="">
+                                </a>
+                                <div class="task-thumb-details">
+                                    <h1>
+                                        <a href="javascript:;">工程进度</a>
+                                    </h1>
+                                    <p>
+                                        普尔惠·巴德莱
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="progress-table">
+                                <ul class="pt-ul">
+                                    <li>1</li>
+                                    <li>目标收入</li>
+                                    <li><span class="badge bg-important">75%</span></li>
+                                    <li>
+                                        <div id='work-progress1'>1</div>
+                                    </li>
+                                </ul>
+                                <ul class="pt-ul">
+                                    <li>2</li>
+                                    <li>项目Larsen</li>
+                                    <li><span class="badge bg-success">43%</span></li>
+                                    <li>
+                                        <div id='work-progress2'>1</div>
+                                    </li>
+                                </ul>
+                                <ul class="pt-ul">
+                                    <li>3</li>
+                                    <li>项目Nowbie</li>
+                                    <li><span class="badge bg-info">67%</span></li>
+                                    <li>
+                                        <div id='work-progress3'>1</div>
+                                    </li>
+                                </ul>
+                                <ul class="pt-ul">
+                                    <li>4</li>
+                                    <li>销售总额</li>
+                                    <li><span class="badge bg-warning">30%</span></li>
+                                    <li>
+                                        <div id='work-progress4'>1</div>
+                                    </li>
+                                </ul>
+                                <ul class="pt-ul">
+                                    <li>5</li>
+                                    <li>等待交付</li>
+                                    <li><span class="badge bg-primary">15%</span></li>
+                                    <li>
+                                        <div id='work-progress5'>1</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4">
+                        <section class="panel post-wrap">
+                            <aside>
+                                <div class="panel-body">
+                                    <h3 class="wrap-h3"><a href="javascript:;"><i class="fa fa-twitter"></i></a></h3>
+                                    <div class="twite">
+                                        <h1>
+                                            <span>我们刚刚推出了一个新的主题在</span>
+                                            <a href="javascript:;">
+                                                http://olivethemes.in/
+                                            </a>
+                                        </h1>
+                                        <p>
+                                            4天以前
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </aside>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="panel is-block">
+                            <div class="panel-body">
+                                <div class="user-intro">
+                                    <a class="user-left" href="javascript:;">
+                                        <img class="thumb" src="images/avatar1.jpg" alt="">
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            普尔惠·巴德莱
+                                        </h4>
+                                        <span>
+                                            萨茹阿提主席
+                                        </span>
+                                        <p>我手工制作美丽的网站和各种设备的应用程序</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="panel is-block">
+                            <div class="weather-bg">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <i class="fa fa-cloud"></i>
+                                            新德里
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="degree">
+                                                48°
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="weather-category">
+                                <ul>
+                                    <li>
+                                        <h5>湿度</h5>
+                                        45%
+                                    </li>
+                                    <li>
+                                        <h5>风级</h5>
+                                        5 mph
+                                    </li>
+                                </ul>
+                            </footer>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="panel is-block">
+                            <div class="panel-body">
+                                <div class="calendar-block ">
+                                    <div class="cal-header">
+                                        <div class="preMonth">
+                                            <span id="preMonth">
+                                                <i class="fa fa-chevron-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="date-y-a-m">
+                                            <span id="nowMonth"></span>月
+                                            <span id="nowYear"></span>年
+                                        </div>
+                                        <div class="nextMonth">
+                                            <span id="nextMonth">
+                                                <i class="fa fa-chevron-right"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="cal-table">
+                                        <ul class="header-days">
+                                            <li class="header-day">日</li>
+                                            <li class="header-day">一</li>
+                                            <li class="header-day">二</li>
+                                            <li class="header-day">三</li>
+                                            <li class="header-day">四</li>
+                                            <li class="header-day">五</li>
+                                            <li class="header-day">六</li>
+                                        </ul>
+                                        <ul class="date-line">
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                        </ul>
+                                        <ul class="date-line">
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                        </ul>
+                                        <ul class="date-line">
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                        </ul>
+                                        <ul class="date-line">
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                        </ul>
+                                        <ul class="date-line">
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                            <li><span class="date-items"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="panel is-block">
+                            <div class="panel-body">
+                                <footer class="project-category">
+                                    <ul>
+                                        <li>
+                                            <h5>项目1</h5>
+                                            <div class="work-out-wrap">
+                                                <div id="work-progress6"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>项目2</h5>
+                                            <div class="work-out-wrap">
+                                                <div id="work-progress7"></div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h5>项目3</h5>
+                                            <div class="work-out-wrap">
+                                                <div id="work-progress8"></div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <h1>项目完成情况</h1>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="panel is-block">
+                            <div class="panel-body bio-chart-out-div">
+                                <div class="bio-chart">
+                                    <div class="circle-bar red">
+                                        <input class="knob" data-width="100" data-fgColor="#f9a3a3" data-thickness=".2"
+                                            value="78" style="outline: none; border:none;">
+                                    </div>
+                                    <h4 class="red">利润</h4>
+                                </div>
+                                <div class="bio-chart">
+                                    <div class="circle-bar yellow">
+                                        <input class="knob" data-width="100" data-fgColor="#fcce54" data-thickness=".2"
+                                            value="63" style="outline: none; border:none;">
+                                    </div>
+                                    <h4 class="yellow">发展</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="site-footer">
+            2013 © Olive Admin by <a href="javascript:;" target="_blank">
+                Olive Enterprise
+            </a>
+            <a class="goto-top" href="#">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </footer>
+    </section>
+    <script src="js/headerNormal.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="js/leftNav.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/addNumber.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script>
+        $(function () {
+            $(".knob").knob();
+            var val, up = 0, down = 0, i = 0
+                , incr = function () { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+                , decr = function () { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+            $("input.infinite").knob(
+                {
+                    'min': 0, 'max': 20, 'stopper': false, 'change': function (v) {
+                        if (val > v) {
+                            if (up) {
+                                decr();
+                                up = 0;
+                            } else { up = 1; down = 0; }
+                        } else {
+                            if (down) {
+                                incr();
+                                down = 0;
+                            } else { down = 1; up = 0; }
+                        }
+                        val = v;
+                    }
+                }
+            );
+        });
+    </script>
+    <script>
+        var myChart = echarts.init(document.getElementById('terquestChart'));
+        console.log(myChart);
+        // 指定图表的配置项和数据,折线图
+        option = {
+            lineStyle: {
+                color: 'white'
+            },
+            title: {
+                text: ''
+            },
+            position: function (point) {
+                return [point[0], point[1] - 50]
+            },
+            emphasis: {
+                itemStyle: {
+                    color: 'rgb(85,255,85)',
+                }
+            },
+            tooltip: {
+                borderColor: "#fff",
+                borderWidth: 1,
+                trigger: 'axis',
+                axisPointer: {
+                    lineStyle: {
+                        color: 'white'
+                    }
+                }
+            },
+            grid: {
+                left: 10,
+                right: 10,
+                top: 8,
+                bottom: 8
+            },
+            xAxis: {
+                show: false,
+                type: 'category',
+                boundaryGap: false,
+                data: ['', '', '', '', '', '', '', '', '', '', '']
+            },
+            yAxis: {
+                show: false,
+                type: 'value',
+                min: 123,
+                max: 996
+
+            },
+            series: [
+                {
+                    type: 'line',
+                    stack: '总量',
+                    symbol: 'circle',     //设定为实心点
+                    symbolSize: 8,
+                    data: [564, 123, 890, 564, 455, 200, 135, 667, 333, 526, 996],
+                    itemStyle: {
+                        normal: {
+                            color: 'white',
+                            color: function (pargram) {
+                                if (pargram.value > 995) {
+                                    return 'red'
+                                } else if (pargram.value < 125) {
+                                    return 'red'
+                                } else {
+                                    return 'white'
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        };
+        myChart.setOption(option);
+    </script>
+    <script>
+        // 利润折线表
+        var myChart = echarts.init(document.getElementById('hero-area'));
+        option = {
+            grid: {
+                top: '10%',
+                bottom: '8%',
+                left: '10%',
+                right: '10%'
+            },
+            tooltip: {
+                backgroundColor: "#fff",
+                borderWidth: 1,
+                axisPointer: {
+                    lineStyle: {
+                        color: 'transparent'
+                    }
+                },
+                trigger: 'axis',
+                borderColor: 'rgba(0,0,0,0.1)',
+                borderWidth: 1,
+                extraCssText: 'border-radius:5px;line-height:1.3;',
+                position: function (pos, params, dom, rect, size) {
+                    if (pos[0] < size.viewSize[0] * 0.125) {
+                        return ['0%', '55%'];
+                    }
+                    else if (pos[0] < size.viewSize[0] * 0.25) {
+                        return ['11%', '35%']
+                    }
+                    else if (pos[0] < size.viewSize[0] * 0.375) {
+                        return ['22%', '10%']
+                    } else if (pos[0] < size.viewSize[0] * 0.5) {
+                        return ['35%', '26%']
+                    }else if (pos[0] < size.viewSize[0] * 0.625) {
+                        return ['45%', '14%']
+                    }else if (pos[0] < size.viewSize[0] * 0.75) {
+                        return ['58%', '22%']
+                    }else if (pos[0] < size.viewSize[0] * 0.875) {
+                        return ['68%', '8%']
+                    }else{
+                        return ['80%', '16%']
+                    }
+                },
+                formatter: function (params) {
+                    var res = '<div"><p style="font-size:10px;font-weight:bold; color:rgb(102,102,102);">' + params[0].name + '</p></div>'
+                    res += '<p style="color:rgb(114,208,235)">' + 'iphone:' + ':' + params[0].data + '</p>';
+                    return res;
+                },
+                textStyle: {
+                    align: 'center'
+                }
+            },
+            legend: {},
+            xAxis: {
+                axisTick: {
+                    show: false
+                },
+                axisLine: {
+                    show: false
+                },
+                splitLine: {
+                    show: false
+                },
+                type: 'category',
+                boundaryGap: false,
+                data: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012']
+            },
+            yAxis: {
+                axisTick: {
+                    show: false
+                },
+                axisLine: {
+                    show: false
+                },
+                min: 0,
+                max: 10000,
+                minInterval: 2500,
+                type: 'value'
+            },
+            series: [{
+                // name:'iphone',
+                data: [2250, 4550, 7750, 5750, 10000, 9000, 8000, 7000],
+                type: 'line',
+                symbol: 'circle',     //设定为实心点
+                symbolSize: 20,
+                areaStyle: {
+                    opacity: 1,
+                    color: 'rgb(197,229,238)'
+                },
+
+                itemStyle: {
+                    normal: {
+                        borderColor: '#fff',
+                        color: 'rgb(114,208,235)'
+                    }
+                }
+
+            }]
+        };
+        myChart.setOption(option);
+    </script>
+    <script>
+        function setCharts(id, minHeight, maxHeight, dateList, setColor) {
+            // 右边小柱状图
+            // 指定图表的配置项和数据
+            // 使用刚指定的配置项和数据显示图表。
+            var myChart = echarts.init(document.getElementById(id));
+            var option = {
+                title: {
+                },
+                tooltip: {
+                    position: 'top',
+                    borderColor: "#fff",
+                    borderWidth: 1,
+                },
+                legend: {},
+                xAxis: {
+                    show: false,
+                    data: ["", "", "", "", "", "", ""]
+                },
+                yAxis: {
+                    show: false,
+                    min: minHeight,
+                    max: maxHeight
+                },
+                series: [{
+                    name: '',
+                    type: 'bar',
+                    data: dateList,
+                    itemStyle: {
+                        normal: {
+                            color: setColor
+                        }
+                    }
+                }]
+            };
+            myChart.setOption(option);
+        }
+        setCharts('greenChart', 5, 9, [6, 9, 8, 7, 6, 8], 'rgb(169,217,108)');
+        setCharts('work-progress1', -10, 24, [5, 6, 7, 5, 9, 6, 4], 'rgb(95,191,0)');
+        setCharts('work-progress2', -10, 18.5, [3, 2, 5, 8, 4, 7, 5], 'rgb(88,201,241)');
+        setCharts('work-progress3', -10, 16, [1, 6, 9, 3, 4, 8, 5], 'rgb(128,117,196)');
+        setCharts('work-progress4', -10, 21.5, [9, 4, 9, 6, 7, 4, 3], 'rgb(255,108,96)');
+        setCharts('work-progress5', -10, 21.5, [6, 8, 5, 4, 6, 8, 3], 'rgb(65,202,192)');
+        setCharts('work-progress6', 0, 14, [6, 8, 5, 7, 6, 8, 9], 'rgb(49,247,77)');
+        setCharts('work-progress7', 0, 14, [6, 8, 5, 7, 6, 8, 9], 'rgb(252,203,72)');
+        setCharts('work-progress8', 0, 14, [6, 8, 5, 7, 6, 8, 9], 'rgb(151,119,255)');
+    </script>
+</body>
+
+</html>

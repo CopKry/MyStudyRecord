@@ -1,0 +1,108 @@
+header{
+    padding: 0 4.6875rem;
+    width: 100%;
+    height: 24.65625rem;
+    background: url(../images/login_register_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#app header p{
+    margin-bottom: .9375rem;
+}
+
+#app header p a{
+    font-size: .625rem;
+    color: rgb(124, 124, 138);
+}
+
+#app .focus-now{
+    color: #fff;
+}
+
+#app header p a:hover{
+    color: #fff;
+}
+
+header p span{
+    font-size: 1.25rem;
+    color: rgb(124, 124, 138);
+    font-weight: 200;
+}
+
+.login{
+    padding: 2.5rem 2.1875rem 0;
+    position: relative;
+}
+
+.login>span{
+    display: inline-block;
+    border-left: .5625rem solid transparent;
+    border-right: .5625rem solid transparent;
+    border-bottom: .625rem solid #fff;
+    position: absolute;
+    top: -0.625rem;
+    left: 5rem;
+}
+
+.position-div{
+    position: relative;
+}
+
+.login input{
+    width: 18.125rem;
+    height: 3.125rem;
+    border: .0625rem solid rgb(227, 227, 227);
+    border-radius: 1.5625rem;
+    padding-left: 3.75rem;
+    font-size: .6875rem;
+    background: rgb(250, 250, 250);
+    margin-bottom: .625rem;
+}
+
+.login i{
+    display: inline-block;
+    width: .78125rem;
+    height: .9375rem;
+    position: absolute;
+    top: 1.09375rem;
+    left: 1.71875rem;
+}
+
+.user-icon{
+    background: url(../images/Shape1.png) no-repeat center;
+    background-size: contain;
+}
+
+.phone-icon{
+    background: url(../images/phone.png) no-repeat center;
+    background-size: contain;
+}
+
+.passowrd-icon{
+    background: url(../images/Shape2.png) no-repeat center;
+    background-size: contain;
+}
+
+.login .submit-btn{
+    margin-top: .625rem;
+    padding: 0;
+    background: rgb(133, 178, 246);
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-footer{
+    padding-bottom: 4.6875rem
+}
+
+.login-footer a{
+    color: rgb(153, 153, 153);
+    font-size: .5625rem;
+    padding-bottom: .0625rem;
+    border-bottom: .0625rem solid rgb(153, 153, 153);
+}
+
+.register>span{
+    top: -0.625rem;
+    left: 16.25rem;
+}

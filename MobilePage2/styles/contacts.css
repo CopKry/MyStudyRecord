@@ -1,0 +1,75 @@
+.top{
+    padding: .9375rem 1.40625rem;
+}
+
+.full-up{
+    height: 3.03125rem
+}
+
+#app .top img{
+    height: 1.09375rem;
+}
+
+.friend-div{
+    padding: 0 1.25rem;
+}
+
+.friend-div h2{
+    font-size: .6875rem;
+    font-weight: normal;
+    margin:1.5625rem 2.8125rem 0;
+    padding-bottom: .5625rem;
+    text-align: center;
+    border-bottom: .03125rem solid rgb(200, 207, 217);
+}
+
+.friend-div a{
+    display: inline-block;
+    position: relative;
+}
+
+.friend-div span{
+    position: absolute;
+    background: red;
+    display: inline-block;
+    height: .75rem;
+    width: .75rem;
+    top:1.875rem;
+    right: .1875rem;
+    border-radius: 50%;
+    border: .125rem solid #fff;
+}
+
+.recent-div span{
+    height: 1rem;
+    width: 1rem;
+}
+
+.friend-div .green{
+    background: rgb(83, 222, 56);
+}
+
+.recent-div img{
+    height: 4.6875rem;
+    margin-top: 1.5625rem;
+}
+
+.all-div img{
+    height: 6.0625rem;
+}
+
+.all-div p{
+    margin-top: .625rem;
+    font-size: .6875rem;
+    text-align: center;
+}
+
+.user-icon{
+    background: url(../images/blue_users.png) no-repeat center;
+    background-size: contain;
+}
+
+.outline-talk-icon{
+    background: url(../images/black_outline_talk.png) no-repeat center;
+    background-size: contain;
+}

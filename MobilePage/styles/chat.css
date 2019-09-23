@@ -1,0 +1,194 @@
+.top{
+    padding: .625rem .9375rem;
+}
+
+.top-middle{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.top-middle h1{
+    font-size: .875rem;
+    font-weight: normal;
+    margin-bottom: .46875rem;
+}
+
+.top-middle p{
+    font-size: .5rem;
+    font-weight: 100;
+    color: rgb(115, 115, 115);
+}
+
+.left-arrows{
+    display: inline-block;
+    width: .6875rem;
+    height: 1.21875rem;
+    background: url(../images/news/left_arrow.png) no-repeat center;
+    background-size: contain;
+}
+
+.more-icon{
+    display: inline-block;
+    width: .5rem;
+    height: 1.21875rem;
+    background: url(../images/news/more_icon.png) no-repeat center;
+    background-size: contain;
+}
+
+.middle-div{
+    border-top: .03125rem solid rgb(245, 245, 245);
+    border-bottom: .03125rem solid rgb(245, 245, 245);
+    padding: 0 .9375rem;
+}
+
+.middle-div .user-face{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.middle-div p{
+    font-size: .875rem;
+    padding: .78125rem;
+    border-radius: 1.5625rem;
+    max-width: 16.5625rem;
+}
+
+.middle-div span{
+    color:rgb(217, 217, 217)
+}
+
+.left-news,
+.right-news,
+.middle-data{
+    margin-bottom: 1.25rem;
+}
+
+.left-news p{
+    background: rgb(245, 245, 245);
+    margin-left: .625rem;
+}
+
+.right-news p{
+    position: relative;
+    background: rgb(88, 149, 249 );
+    color: #fff;
+    margin-right: .625rem;
+}
+.right-news span{
+    position: absolute;
+    left: -1.46875rem;
+    font-size: .5rem;
+    bottom: 0;
+}
+
+.right-news .user-face{
+    background: url(../images/indexs/girl-face.jpeg) no-repeat center;
+    background-size: contain;
+}
+
+.middle-data span{
+    font-size: .5625rem;
+}
+
+.write-div{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+    position: relative;
+    padding: .46875rem .9375rem;
+}
+.tell-div img{
+    height: 1.875rem;
+}
+
+.black-ten{
+    display: inline-block;
+    width: 1.875rem;
+    height: 1.875rem;
+    background: url(../images/news/icon_more.png) no-repeat center;
+    background-size: contain;
+}
+
+.write-div [type="text"]{
+    border: none;
+    border-radius: 1.5625rem;
+    height: 2.1875rem;
+    background: rgb(245, 245, 245);
+    width: 15.625rem;
+}
+
+.write-div [type="submit"]{
+    cursor: pointer;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    top: 50%;
+    margin-top: -0.78125rem;
+    right: 1.71875rem;
+    position: absolute;
+    border: none;
+    text-indent: -99999px;
+    overflow: hidden;
+    border-radius: 50px;
+    background: url(../images/news/icon_emoj.png) no-repeat center;
+    background-size: contain;
+}
+
+.more-active{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+    padding: 1.875rem .9375rem;
+    background: rgb(245, 245, 245);
+}
+
+.more-active a{
+    margin-bottom: 1.25rem;
+    font-size: .75rem;
+    color: rgb(102, 102, 102);
+}
+
+.more-active a:hover{
+    color: rgb(246, 22, 75);
+}
+
+.more-active i{
+    display: inline-block;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-bottom: .78125rem;
+}
+
+.video-icon{
+    background: url(../images/news/icon_video.png) no-repeat center;
+    background-size: contain;
+}
+.position-icon{
+    background: url(../images/news/icon_settle_location.png) no-repeat center;
+    background-size: contain;
+}
+.talck-icon{
+    background: url(../images/news/icon_mic_communication.png) no-repeat center;
+    background-size: contain;
+}
+.talck-by-viedo-icon{
+    background: url(../images/news/icon_video_communication.png) no-repeat center;
+    background-size: contain;
+}
+.white-icon{
+    background: url(../images/news/icon_Whiteboard.png) no-repeat center;
+    background-size: contain;
+}
+.pointer-icon{
+    background: url(../images/news/icon_finger-guessinggame.png) no-repeat center;
+    background-size: contain;
+}
+.fire-icon{
+    background: url(../images/news/icon_ephemeral.png) no-repeat center;
+    background-size: contain;
+}
+.red-moeny-icon{
+    background: url(../images/news/icon_redpackets.png) no-repeat center;
+    background-size: contain;
+}

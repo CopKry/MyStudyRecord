@@ -1,0 +1,122 @@
+#app .top{
+    padding: .625rem .9375rem .625rem .625rem;
+}
+
+.share-icon{
+    background: url(../images/indexs/icon_share.png) no-repeat center;
+    background-size: contain;
+}
+
+.self-video{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+}
+
+.card li{
+    margin-top: .78125rem;
+}
+
+.card ul{
+    padding: 0 .9375rem .78125rem;
+    border-bottom: .03125rem solid rgb(224, 224, 224);
+}
+
+.card h2{
+    font-size: .875rem;
+    color: rgb(251, 17, 55);
+}
+
+.card p{
+    font-size: .75rem;
+    color: rgb(102, 102, 102);
+}
+
+.card li p:first-child{
+    width: 7.65625rem;
+}
+
+.card li p:nth-child(2){
+    color: rgb(51, 51, 51);
+}
+
+.card .little-intro{
+    border-radius: .3125rem;
+    background: rgb(251, 17, 55);
+    padding: .3125rem .46875rem;
+    color: white;
+}
+
+.comment-div section{
+    max-width: 18.59375rem;
+}
+
+.flow-div{
+    margin-bottom: 0;
+}
+
+.other-show-div{
+    text-align: center;
+}
+
+.other-show-div i{
+    width: 6.875rem;
+    height: 5rem;
+    border-radius: .125rem;
+    background-size: cover;
+}
+
+.other-show-div h3{
+    font-size: .6875rem;
+    font-weight: 390;
+    color:rgb(51, 51, 51);
+    margin-top: .3125rem;
+}
+
+.girl{
+    background: url(../images/indexs/girl-face.jpeg) no-repeat center;
+}
+
+.girl2{
+    background: url(../images/indexs/girl2.jpg) no-repeat center;
+}
+
+.man{
+    background: url(../images/indexs/man.jpg) no-repeat center;
+}
+
+.hot-ra{
+    padding-bottom: .9375rem;
+}
+
+.hot-ra ul{
+    border: none;
+}
+
+.slef-footer{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+}
+
+.slef-footer a{
+    display: inline-block;
+    width: 11.71875rem;
+    height: 2.8125rem;
+    text-align: center;
+    font-size: .9375rem;
+    line-height: 2.8125rem;
+}
+
+.slef-footer div .in-suc{
+    background: rgb(245, 245, 245);
+    color: rgb(102, 102, 102);
+}
+
+.slef-footer div .continue{
+    background: rgb(251, 17, 55);
+    color: white;
+}

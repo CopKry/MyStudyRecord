@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>打地鼠,进行时</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1>打地鼠</h1>
+		</header>
+		<section class="main">
+			<div class="wrap lo-re">
+				<div class="lo-re-top"><span id="loginTab" class="login-span show">登录</span><span id="registerTab" class="register-span">注册</span></div>
+				<div class="login show">
+					<header><i class="userImg" style="background-image: url(img/defaultHeadImg.png);"></i></header>
+					<div class="text">
+						账号：<input id="loginUserName" type="text" placeholder="用户名">
+					</div>
+					<div class="text">
+						密码：<input id="loginPassWord" type="password" placeholder="密码">
+					</div>
+					<footer class="footer"><button id="loginBtn" class="btn loginBtn">登录</button></footer>
+				</div>
+				<div class="register">
+					<header><i id="registerImg" class="userImg">点我设置头像</i></header>
+					<div class="text">
+						账号：<input id="registerUserName" type="text" placeholder="用户名">
+					</div>
+					<div class="text">
+						密码：<input id="registerPassWord" type="password" placeholder="密码">
+					</div>
+					<footer class="footer"><button id="registerBtn" class="btn registerBtn">注册</button></footer>
+				</div>
+			</div>
+		</section>
+		<div id="headerSelect" class="">
+			<div id="putHeaderImg">
+				<div class="putLittelImg"></div>
+				<div class="sure"><button id="hBtn" class="btn">确认选择</button></div>
+			</div>
+		</div>
+		<div class="bg" style="background-image: url(img/playMouseBg.jpg);"></div>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/someFunction.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

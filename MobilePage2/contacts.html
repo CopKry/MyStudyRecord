@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts.html</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/cha_list.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <script src="js/rem.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="top flex flex-between align-items">
+            <div></div>
+            <h1>Contacts</h1>
+            <a href=""><img class="editer-icon" src="images/search_black.png" alt=""></a>
+        </div>
+        <div class="full-up">
+        </div>
+        <section class="friend-div recent-div">
+            <h2>RECENT CONTACT</h2>
+            <div class="flex flex-between">
+                <a href="#"><img src="images/ala.png" alt=""><span class="green"></span></a>
+                <a href="#"><img src="images/314926.png" alt=""><span class="red"></span></a>
+                <a href="#"><img src="images/314929.png" alt=""><span class="green"></span></a>
+                <a href="#"><img src="images/man2.png" alt=""><span class="green"></span></a>
+            </div>
+        </section>
+        <section class="friend-div all-div recent-div">
+            <h2>ALL CONTACT</h2>
+            <div id="firend-list" class="flex flex-between flex-wrap">
+                <a id="add_friend" href="javascript:;" onclick="add_friend()"><img src="images/add_new_friends.png" alt=""></a>
+                <div>
+                    <a href="#"><img src="images/alisa.png" alt=""><span class="green"></span></a>
+                    <p>Alisa</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Kristian.png" alt=""><span class="green"></span></a>
+                    <p>Kristian</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Tony.png" alt=""><span class="red"></span></a>
+                    <p>Tony</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Erick.png" alt=""><span class="green"></span></a>
+                    <p>Erick</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/madalena.png" alt=""><span class="red"></span></a>
+                    <p>Madalena</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Kristian.png" alt=""><span class="red"></span></a>
+                    <p>Kristian</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Tony.png" alt=""><span class="green"></span></a>
+                    <p>Tony</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Erick.png" alt=""><span class="green"></span></a>
+                    <p>Erick</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/madalena.png" alt=""><span class="green"></span></a>
+                    <p>Madalena</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Kristian.png" alt=""><span class="green"></span></a>
+                    <p>Kristian</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Tony.png" alt=""><span class="green"></span></a>
+                    <p>Tony</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/Erick.png" alt=""><span class="green"></span></a>
+                    <p>Erick</p>
+                </div>
+                <div>
+                    <a href="#"><img src="images/madalena.png" alt=""><span class="green"></span></a>
+                    <p>Madalena</p>
+                </div>
+            </div>
+        </section>
+        <div class="full-footer"></div>
+        <footer class="chat-list-footer flex flex-between">
+            <a href="contacts.html"><i class="user-icon"></i></a>
+            <a href="chat_list.html"><i class="outline-talk-icon"></i></a>
+            <a href=""><i class="setting-icon"></i></a>
+        </footer>
+    </div>
+    <script>
+        function add_friend(){
+            var firendlist=document.getElementById("firend-list");
+            var div=document.createElement("div");
+            var a=document.createElement("a");
+            var img=document.createElement("img");
+            var span=document.createElement("span");
+            var p=document.createElement("p");
+            div.appendChild(a);
+            div.appendChild(p);
+            a.append(img);
+            a.append(span);
+            img.src="images/alisa.png";
+            p.innerText="Alisa";
+            firendlist.appendChild(div);
+        }
+    </script>
+</body>
+</html>

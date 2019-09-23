@@ -1,0 +1,90 @@
+@media(max-width:768px){
+    #container{
+        min-width: 483px;
+    }
+    .header{
+        position: absolute;
+    }
+    .notify-row{
+        display: none;
+    }
+    input.search{
+        display: none;
+    }
+    #sidebar.nav-collapse{
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow-y: auto;
+        height: auto;
+        z-index: 3;
+    }
+    #sidebar.nav-collapse.show{
+        display: block;
+    }
+    .sub>li>a{
+        padding: 0;
+    }
+    .sidebar-menu>li>a{
+        padding: 0 0 0 10px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .sidebar-menu .sub-menu .label {
+        top: 5px;
+    }
+    .dcjq-icon{
+        top: 8px;
+    }
+    #main-content{
+        margin-left: 0px!important;
+    }
+    .col-lg-3,.col-sm-6{
+        width: 100%;
+    }
+    .col-lg-4,.col-lg-2,.col-lg-6,.col-lg-8,.col-sm-12{
+        width: 100%;
+    }
+    .panel.green-chart{
+        margin-bottom: 0;
+    }
+    
+}
+@media(min-width:768px){
+    .col-lg-3,.col-sm-6{
+        width: 50%;
+    }
+    .col-lg-4,.col-lg-2,.col-lg-6,.col-lg-8,.col-sm-12{
+        width: 100%;
+    }
+    .panel.green-chart{
+        margin-bottom: 0;
+    }
+    .modal-dialog{
+        width: 600px;
+        margin: 30px auto;
+    }
+    .modal-content{
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+}
+@media(min-width:1200px){
+    .panel.green-chart {
+        margin-bottom: 20px;
+    }
+    .col-lg-2{
+        width: 16.666666666666664%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.333333%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-8{
+        width: 66.66666666666666%;
+    }
+}

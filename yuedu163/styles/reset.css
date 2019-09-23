@@ -1,0 +1,406 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, 
+blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, 
+legend, button, input, textarea, th, td { margin:0; padding:0; }
+
+img{
+    outline: none;
+    border: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#665555;
+}
+
+a:hover{
+    color: #C9483C;
+}
+
+body{
+    font:12px/1.5 Helvetica Neue,Helvetica,tahoma,Arial,\5FAE\8F6F\96C5\9ED1;
+}
+
+.wrap{
+    min-width: 980px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-start{
+    justify-content: flex-start
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.coulmn{
+    flex-direction: column;
+}
+
+.coulmn-reverse{
+    flex-direction: column-reverse;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.one63login,.xinlanlogin,.phonelogin,.wechatlogin{
+    background: url(../images/sec-header.png) -9999px -9999px no-repeat;
+}
+
+.logo a,.login,.search [type="submit"],.mybook a{
+    background: url(../images/little-img.png) -9999px -9999px no-repeat;
+}
+/* 头部样式开始 */
+
+header{
+    min-width: 980px;
+    width: 100%;
+}
+
+header .all-top,
+.all-top a{
+    color: #888888;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.all-top a:hover{
+    color: rgb(213, 8, 8);
+}
+
+header .all-top{
+    border-bottom: 1px solid #dcdcdc;
+    background: #fafafa;
+    min-width: 980px;
+}
+
+.all-top nav{
+    position: relative;
+}
+
+.sep{
+    padding: 0 12px;
+}
+
+.hover-li:hover + .scale-div,
+.scale-div:hover{
+    display: block;
+}
+
+.all-top-focus-me{
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 309px;
+    z-index:999;
+}
+
+.all-top-focus-me img{
+    width: 100px;
+}
+
+.login{
+    padding-right: 12px;
+    background-position: 28px -318px;
+}
+
+.login-div>ul>div{
+    background: white;
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    display:none;
+    z-index:999;
+}
+
+.login-trigon{
+    position: relative;
+    border-top: 1px solid rgb(205, 205, 205);
+    height: 5px;
+}
+
+.out-trigon{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-3px);
+    height: 0;
+    width: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 6px solid rgb(205, 205, 205);
+}
+
+.in-trigon{
+    position: relative;
+    right: 6px;
+    height: 0;
+    width: 0;
+    border-top:1px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 7px solid white;
+}
+
+.login-div>ul>div>ul{
+    text-align: center;
+    width: 160px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+.login-div>ul>div>ul>li a{
+    margin: 0 auto;
+    width: 140px;
+    display: flex;
+    line-height: 43px;
+    height: 43px;
+    align-items: center;
+    border-bottom: 1px dashed rgb(205, 205, 205);
+}
+
+.login-div>ul>div>ul>li:last-child a{
+    border: none;
+}
+
+.login-div>ul>div>ul>li span:first-child{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 10px;
+}
+
+.one63login{
+    background-position: -192px -304px;
+}
+.xinlanlogin{
+    background-position: -192px -324px;
+}
+.phonelogin{
+    background-position: -192px -344px;
+}
+.wechatlogin{
+    background-position: -192px -364px;
+}
+
+.header-top{
+    min-width: 980px;
+    height: 106px;
+    width: 100%;
+}
+
+.logo{
+    float: left;
+    width: 194px;
+    height: 36px;
+    overflow: hidden;
+    margin: 40px 0 0;
+}
+
+.logo a{
+    display: block;
+    height: 36px;
+    text-indent: -999999px;
+    background-position: 0 0;
+}
+
+.search{
+    width: 400px;
+    height: 36px;
+    margin: 40px 0 0 88px;
+}
+
+.search [type="text"]{
+    width: 336px;
+    height: 14px;
+    padding: 10px;
+    border: #c9483c 1px solid;
+    background: #fff;
+    outline: none;
+}
+
+.search [type="submit"]{
+    border: none;
+    outline: none;
+    width: 42px;
+    height: 36px;
+    background-position: -2px -56px;
+    cursor: pointer;
+}
+
+.mybook{
+    width: 100px;
+    height: 36px;
+    margin: 40px 0 0;
+}
+
+.mybook a{
+    display: block;
+    margin: 0;
+    width: 66px;
+    height: 34px;
+    margin-left: -1px;
+    padding: 0 0 0 33px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #655;
+    border: 1px solid #ebe6e1;
+    outline: none;
+    background-position: 13px -175px;
+}
+
+.middle-bai{
+    width: auto;
+}
+
+.header-bottom li{
+    line-height: 36px;
+}
+
+.header-bottom a{
+    display: block;
+    font-size: 16px;
+    color: #665656;
+    font-weight: 700;
+    line-height: 36px;
+    border-bottom: 2px solid #665656;
+}
+
+.header-bottom a:hover{
+    border-bottom:2px solid #c9483c;
+}
+
+.header-bottom .now-a{
+    color: #c9483c;
+    border-bottom:2px solid #c9483c;
+}
+
+.header-bottom-left-nav a{
+    padding: 0 20px;
+}
+
+.header-bottom-middle{
+    width: 198px;
+    border-bottom: 2px solid #665656;
+}
+
+.header-bottom-right-nav a{
+    padding-left: 30px;
+}
+
+.top-icon{
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin-right: 2px;
+}
+
+.author-icon{
+    background: url(../images/author-icon.png) no-repeat center;
+}
+
+.money-icon{
+    background: url(../images/money-icon.png) no-repeat center;
+}
+
+.phone-icon{
+    background: url(../images/phone-icon.png) no-repeat center;
+}
+
+.header-bottom-right-nav li a{
+    display: flex;
+    align-items: center;
+}
+/* 头部样式结束 */
+/* 最后的尾部 */
+footer{
+    border-top: 1px solid #eee;
+    background: #fafafa;;
+}
+
+footer a{
+    color: #888888
+}
+
+footer a:hover{
+    color: #c9483c;
+}
+
+footer>div{
+    padding: 40px 0 50px;
+}
+
+footer .sep{
+    padding:0 6px;
+    color: #cccccc;
+}
+
+.footer-middle{
+    padding: 10px 0 0;
+}
+
+.footer-middle p{
+    color: #888888
+}
+
+.footer-bottom{
+    line-height: 16px;
+    width: 153px;
+    margin:10px auto 0;
+    color: #888888;
+}
+
+.footer-bottom .Wechat-icon,
+.footer-bottom .xinlang-icon,
+.footer-bottom .yixin-icon,
+.footer-bottom .star-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background: url(../images/footer-icon.png) no-repeat;
+}
+.footer-bottom .Wechat-icon{
+    background-position: -17px -39px;
+}
+.footer-bottom .xinlang-icon{
+    background-position: 0 -39px;
+    
+}
+.footer-bottom .yixin-icon{
+    background-position: -49px -38px;
+}
+.footer-bottom .star-icon{
+    background-position: -33px -39px;
+}
+.footer-bottom .Wechat-icon:hover{
+    background-position: -17px -58px;
+}
+
+.footer-bottom .xinlang-icon:hover{
+    background-position: 0 -58px;
+}
+.footer-bottom .yixin-icon:hover{
+    background-position: -49px -58px;
+}
+.footer-bottom .star-icon:hover{
+    background-position: -33px -60px;
+}
+/* 页面尾部结束 */

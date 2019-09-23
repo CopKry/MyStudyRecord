@@ -1,0 +1,169 @@
+.top-left i{
+    margin-right: 1.25rem;
+}
+.top-right i{
+    margin-left: 1.25rem;
+}
+.friend-icon{
+    background: url(../images/indexs/icon_friend_list.png) no-repeat;
+    background-size: contain;
+}
+
+.note-icon{
+    background: url(../images/indexs/icon_note.png) no-repeat;
+    background-size: contain;
+}
+
+.camera-icon{
+    background: url(../images/indexs/icon_camera.png) no-repeat;
+    background-size: contain;
+}
+
+.scan-icon{
+    background: url(../images/indexs/icon_scan.png) no-repeat;
+    background-size: contain;
+}
+
+.search-div{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+    padding: 0 .9375rem;
+    background: #fff;
+}
+
+.search-div a{
+    font-size: .8125rem;
+    color: rgb(102, 102, 102);
+}
+
+.search-div a:hover{
+    color: rgb(246, 22, 75);
+}
+
+.search-div i{
+    display: inline-block;
+    height: .34375rem;
+    width: .625rem;
+    background: url(../images/indexs/IconsNavigation24pxGreyArrowdropdown.png) no-repeat center;
+    background-size: contain;
+    margin-left: .46875rem;
+}
+
+.search-div form{
+    position: relative;
+}
+
+.search-div [type="text"]{
+    width: 18.28125rem;
+    height: 1.5625rem;
+    border-radius: 1.25rem;
+    padding-left: 7.5rem;
+    background:rgb(245, 245, 245);
+    border: none;
+}
+
+.search-div [type="submit"]{
+    position: absolute;
+    height: .78125rem;
+    width: .78125rem;
+    background: url(../images/indexs/icon_search.png) no-repeat center;
+    background-size: contain;
+    top:50%;
+    left:6.09375rem;
+    margin-top: -0.40625rem;
+    border: none;
+    cursor: pointer;
+    text-indent: -9999999px;
+    overflow: hidden;
+}
+/* 推荐下拉菜单开始 */
+.nav-menu{
+    width: 100%;
+    max-width: 23.4375rem;
+    min-width: 10rem;
+    padding: 1.25rem;
+    background: #fff;
+}
+
+.nav-menu a{
+    font-size: .8125rem;
+    color: rgb(51, 51, 51);
+}
+
+.nav-menu a:hover{
+    font-size: .9375rem;
+    color:rgb(246, 22, 75);
+}
+
+.nav-menu i{
+    display: inline-block;
+    width: .46875rem;
+    height: .28125rem;
+    background: url(../images/indexs/IconsNavigation24pxGreyArrowdropdown_option.png) no-repeat center;
+    background-size: contain;
+    margin-left: .4375rem;
+}
+
+.news-a{
+    position: relative;
+}
+
+.nav-menu .news{
+    top: 0;
+    right: -0.25rem;
+    position: absolute;
+    background: rgb(246, 22, 75);
+    width: .375rem;
+    height: .375rem;
+    border-radius: 50%;
+}
+footer.footer-div{
+    min-width: 10rem;
+    border-top: .03125rem solid rgb(245, 245, 245);
+    width: 100%;
+    max-width: 23.4375rem;
+    padding:0 1.5625rem;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+
+.footer-div i{
+    display: inline-block;
+}
+
+.home-icon{
+    width: 1.25rem;
+    height:1.25rem;
+    background: url(../images/indexs/home.png) no-repeat center;
+    background-size: contain;
+}
+
+.page-icon{
+    width: 1.25rem;
+    height:1.25rem;
+    background: url(../images/indexs/page.png) no-repeat center;
+    background-size: contain;
+}
+
+.publish-icon{
+    width: 1.25rem;
+    height:2.1875rem;
+    background: url(../images/indexs/icon_publish.png) no-repeat center;
+    background-size: contain;
+}
+
+.video-icon{
+    width: 1.25rem;
+    height:1.25rem;
+    background: url(../images/indexs/icon_video.png) no-repeat center;
+    background-size: contain;
+}
+
+.self-icon{
+    width: 1.25rem;
+    height:1.25rem;
+    background: url(../images/indexs/self.png) no-repeat center;
+    background-size: contain;
+}

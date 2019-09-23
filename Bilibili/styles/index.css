@@ -1,0 +1,92 @@
+.report-icon{
+    background-position: -141px -75px;
+}
+
+.ad-position{
+    position: relative;
+}
+.ad_first .cm-2{
+    width: 32px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.ad_first a img{
+    width: 980px;
+    border-radius: 5px;
+}
+
+.live-icon{
+    background-position: -141px -652px;
+}
+.online-p{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #99a2aa;
+}
+.online-p span{
+    color: #00a1d6
+}
+.live-div .content-header>a{
+    display: block;
+    margin-top: 8px;
+    margin-left: 40px;
+    padding-right: 10px;
+    color: #6d757a;
+    float: left;
+    line-height: 10px;
+}
+.live-div .content-header>a:hover{
+    color: #00a1d6;
+}
+.fire{
+    background-position: -665px -1113px;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+.snum{
+    position: absolute;
+    bottom: 50px;
+    color: #fff;
+}
+span.author{
+    float: left;
+    display: block;
+    height: 16px;
+    margin-left: 5px;
+    overflow: hidden;
+    width: 72px;
+    max-width: 72px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.online-span{
+    float: left;
+    display: block;
+    height: 16px;
+}
+.online-span i{
+    margin-left: 35px;
+    display: inline-block;
+    width: 13px;
+    height: 10px;
+    background: url(../images/online_span_i.png);
+}
+.live-div a:hover .snum{
+    display: none;
+}
+
+.live-div li:hover .card-mark{
+    opacity: 1;
+}
+.card-mark img{
+    width: 100%;
+    height: 100%;
+}
+/* 动画 */
+.donghua-icon{
+    background-position: -141px -908px;
+}

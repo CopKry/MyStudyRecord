@@ -1,0 +1,21 @@
+#graph-bar{
+    width: 100%;
+    height: 342px;
+    display: flex;
+    justify-content: center;
+}
+#graph-line{
+    height: 342px;
+    display: flex;
+    justify-content: center;
+}
+#graph-area-line{
+    height: 342px;
+    display: flex;
+    justify-content: center;
+}
+#graph-donut{
+    height: 342px;
+    display: flex;
+    justify-content: center;
+}

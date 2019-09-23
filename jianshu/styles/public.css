@@ -1,0 +1,202 @@
+html,
+body,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+table,
+td{
+    margin: 0;
+    padding:0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+}
+
+input::-webkit-input-placeholder{
+    color:rgb(160, 160, 160);
+}
+
+input::-moz-placeholder{
+    color:rgb(160, 160, 160);
+}
+
+input::-ms-input-placeholder{
+    color:rgb(160, 160, 160);
+}
+
+.login-a:hover,.register-a:hover{
+    border-bottom: 2px solid rgb(234 ,111,90);
+}
+
+.main ul li b{
+    color: rgb(150, 150, 150)
+}
+
+img{
+    border:0;
+}
+
+body{
+    background: rgb(241, 241, 241);
+}
+
+.all{
+    position: relative;
+    min-width: 100px;
+}
+
+.logo-image{
+    width: 100px;
+    left: 50px;
+    top: 56px;
+    position: absolute;
+}
+
+.main{
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: auto;
+    margin: 0 auto ;
+    padding: 50px 50px 30px;
+    box-shadow:0 0 8px rgba(0,0,0,0.1);
+}
+
+.li-center{
+    display:flex;
+    justify-content: center;
+}
+
+.li-space{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.li-space li a{
+    padding:10px 10px 9px 10px;
+}
+
+
+.li-space li b{
+    padding: 10px;
+}
+
+i{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left:9px;
+    top: 17px;
+}
+
+i.icon-user{
+    background:url(../images/user.png) no-repeat;
+    background-size: contain;
+}
+
+i.icon-password{
+    background:url(../images/password.png) no-repeat;
+    background-size: contain;
+}
+
+span.username,
+span.password{
+    display: block;
+    height: 49px;
+    border: 1px solid rgb(200, 200, 200);
+    line-height: 50px;
+    position: relative;
+    padding-left: 36px;
+    background:rgb(247, 247, 247);
+}
+
+.text-username,
+.text-password{
+    background:rgb(247, 247, 247)
+}
+
+span.username{
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+span.password{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.more-sign ul li a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+}
+
+p{
+    display: inline-block;
+    width: 28px;
+    height: 29px;
+}
+
+.more-sign{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.more-sign ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.icon-weibo{
+    background:url(../images/weibo.png) no-repeat;
+    background-size: cover;
+}
+
+.icon-weixin{
+    background:url(../images/weixintrue.png) no-repeat;
+    background-size: cover;
+}
+
+.icon-qq{
+    background: url(../images/qq.png) no-repeat;
+    background-size: cover;
+}
+
+.more-sign ul li a p{
+    margin-top:7px;
+    font-size: 13px;
+}
+
+.more-sign ul li a p.other{
+    margin-top:13px;
+}
+
+[type="checkbox"]{
+    margin: 0;
+}

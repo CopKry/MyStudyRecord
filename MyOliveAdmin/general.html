@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>General</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/mainContentPublic.css">
+    <link rel="stylesheet" href="styles/morris.css">
+    <link rel="stylesheet" href="styles/normalResponsive.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/alert.css">
+</head>
+
+<body>
+    <section id="container">
+        <!-- 头部开始 -->
+        <header id="header" class="header blue-bg">
+            <div class="header-left">
+                <div class="siderbar-box">
+                    <div id='tooltips' class="fa fa-bars tooltips" onclick="tooltipsClick()"></div>
+                </div>
+                <a class="logo" href="index.html">
+                    橄榄 <span>后台管理</span>
+                </a>
+                <!-- 信息导航栏 -->
+                <nav class="notify-row">
+                    <ul class="top-menu">
+                        <!-- 导航栏第一 -->
+                        <li id="d1" class="dropdown">
+                            <a id='a1' href="javascript:;">
+                                <i class="fa fa-tasks"></i><span class="badge bg-success">6</span>
+                            </a>
+                            <ul id="u1" class="dropdown-menu">
+                                <li>
+                                    <p class="blue">你有6个待完成的任务</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>仪表板v1.3</div>
+                                        <div class="scroll-out">
+                                            <div class="dashboard scroll-in set40"></div>
+                                            <span class="percent ">40%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>数据库更新</div>
+                                        <div class="scroll-out">
+                                            <div class="database-up scroll-in set60"></div>
+                                            <span class="percent ">60%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>Iphone开发</div>
+                                        <div class="scroll-out">
+                                            <div class="iphone-de scroll-in set87"></div>
+                                            <span class="percent ">87%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>移动应用开发</div>
+                                        <div class="scroll-out">
+                                            <div class="M-app scroll-in set33"></div>
+                                            <span class="percent ">33%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <div>仪表板v1.3</div>
+                                        <div class="scroll-out">
+                                            <div class="dashboard3 scroll-in set45"></div>
+                                            <span class="percent ">45%</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        查看所有任务
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <!-- 导航栏第二 -->
+                        <li id="d2" class="dropdown">
+                            <a id='a2' href="javascript:;">
+                                <i class="fa fa-envelope-o"></i><span class="badge bg-important">5</span>
+                            </a>
+                            <ul id="u2" class="dropdown-menu messages">
+                                <li>
+                                    <p class="blue">你有5条新消息</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">查迪·迪亚</span><span class="time">刚刚</span>
+                                            </div>
+                                            <span class="message-span">你好，这是一个味精的例子。</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini2.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">帕斯·贾尼</span><span class="time">10分钟前</span>
+                                            </div>
+                                            <span class="message-span">嗨，兄弟你好吗？</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini3.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">杰·巴德莱</span><span class="time">三小时前</span>
+                                            </div>
+                                            <span class="message-span">这是一个很棒的仪表盘。</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="photo">
+                                            <img src="images/avatar-mini4.jpg" alt="avater">
+                                        </span>
+                                        <div>
+                                            <div class="top">
+                                                <span class="name">布鲁德·巴德莱</span><span class="time">刚刚</span>
+                                            </div>
+                                            <span class="message-span">你好，这里是都市实验室</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">查看所有消息</a></li>
+                            </ul>
+
+                        </li>
+                        <!-- 导航栏第三 -->
+                        <li id="d3" class="dropdown">
+                            <a id='a3' href="javascript:;">
+                                <i class="fa fa-bell-o"></i><span class="badge bg-warning">7</span>
+                            </a>
+                            <ul id='u3' class="dropdown-menu notifications">
+                                <li>
+                                    <p class="blue">你有7个新通知</p>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                                        服务器# 3超载。34分钟前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-warning"><i class="fa fa-bell"></i></span>
+                                        服务器#10没有响应。一个小时前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                                        数据库超载24%。4小时前
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-success"><i class="fa fa-plus"></i></span>
+                                        新用户注册。刚刚
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="label label-primary"><i class="fa fa-bullhorn"></i></span>
+                                        应用程序错误。十分钟前
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">查看所有消息</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <div class="top-nav">
+                    <ul class="top-menu">
+                        <li>
+                            <input class="search" type="text" placeholder="搜索">
+                        </li>
+                        <li id="d4" class="dropdown">
+                            <a id='a4' class="top-right-a" href="javascript:;">
+                                <img src="images/avatar1_small.jpg" alt="avatar-small">
+                                <span class="username">普尔惠</span>
+                                <b class="bottom-arrows"></b>
+                            </a>
+                            <ul id='u4' class="dropdown-menu user">
+                                <li class="profile">
+                                    <a href="javascript:;">
+                                        <i class="fa fa-suitcase"></i>
+                                        配置文件
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="fa fa-cog"></i>
+                                        系统设置
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <i class="fa fa-bell-o"></i>
+                                        通知消息
+                                    </a>
+                                </li>
+                                <li class="log-out">
+                                    <a href="login.html">
+                                        <i class="fa fa-key"></i>
+                                        退出登录
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- 左边导航栏 -->
+        <aside>
+            <div id="sidebar" class="nav-collapse">
+                <ul class="sidebar-menu">
+                    <!-- 仪表盘 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="index.html">
+                            <i class="fa fa-dashboard"></i>
+                            仪表盘
+                        </a>
+                        <ul class="sub" style="display: none"></ul>
+                    </li>
+                    <!-- 图版 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(0)">
+                            <i class="fa fa-laptop"></i>
+                            图版
+                            <span class="label label-success">4</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li><a href="javascript:;">
+                                    空白页面
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    横向菜单条
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    语言栏
+                                </a></li>
+                            <li><a href="javascript:;">
+                                    电子邮件模板
+                                </a></li>
+                        </ul>
+                    </li>
+                    <!-- UI元素 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a click" href="javascript:;" onclick="showSub(1)">
+                            <i class="fa fa-book"></i>
+                            UI元素
+                            <span class="label label-info">7</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub show" style="height: 255px;">
+                            <li>
+                                <a class="active" href="general.html">一般元素</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">按钮元素</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">小工具</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">范围滑块</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可嵌套列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">树视图列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">字体图标</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 组件 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(2)">
+                            <i class="fa fa-cogs"></i>
+                            组件
+                            <span class="label label-primary">5</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">网格组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">日历组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">画廊组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">待办事项列表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可拖动组件</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 表单的东西 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(3)">
+                            <i class="fa fa-tasks"></i>
+                            表单的东西
+                            <span class="label label-info">7</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">表单组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">高级组件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">表单向导</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">表单验证</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Dropzone文件上传</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">行内编辑器</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">多文件上传</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 数据表 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(4)">
+                            <i class="fa fa-th"></i>
+                            数据表
+                            <span class="label label-inverse">5</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">基础表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">响应表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">动态表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">高级表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">可编辑表</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 邮件 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(5)">
+                            <i class="fa fa-envelope"></i>
+                            邮件
+                            <span class="label label-danger">2</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">收件箱</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">邮件详情</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 图表 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(6)">
+                            <i class="fa fa-bar-chart-o"></i>
+                            图表
+                            <span class="label label-warning">4</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="morris.html">莫里斯图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Chartjs图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Flot图表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">xChart</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 产品 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(7)">
+                            <i class="fa fa-shopping-cart"></i>
+                            产品
+                            <span class="label label-success">2</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">列表视图</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">控件</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 谷歌地图 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a href="javascript:;"><i class="fa fa-map-marker"></i>谷歌地图</a>
+                    </li>
+                    <!-- 额外页面 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(8)">
+                            <i class="fa fa-glass"></i>
+                            额外页面
+                            <span class="label label-primary">10</span>
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">空白页面</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">锁定屏幕</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">配置文件</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">商业发票</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">查询结果</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">定价表格</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">大事年表</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">404错误</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">500错误</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 登录页面 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a href="login.html"><i class="fa fa-user"></i>登录页面</a>
+                    </li>
+                    <!-- 多层菜单 -->
+                    <li class="sub-menu dcjq-parent0li">
+                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(9)">
+                            <i class="fa fa-sitemap"></i>
+                            多层菜单
+                            <span class="dcjq-icon"></span>
+                        </a>
+                        <ul class="sub">
+                            <li>
+                                <a href="javascript:;">菜单项一</a>
+                            </li>
+                            <li>
+                                <a class="sub-btn-a" href="javascript:;" onclick="showSub(10)">菜单项二
+                                    <span class="label label-primary no-position">1</span>
+                                    <span class="dcjq-icon"></span>
+                                </a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="javascript:;">选项2.1</a>
+                                    </li>
+                                    <li>
+                                        <a class="sub-btn-a" href="javascript:;" onclick="showSub(11)">菜单项三
+                                            <span class="label label-primary no-position">3</span>
+                                            <span class="dcjq-icon"></span>
+                                        </a>
+                                        <ul class="sub">
+                                            <li>
+                                                <a href="javascript:;">选项3.1</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">选项3.2</a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:;">选项3.3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section id="main-content" style="margin-left: 210px">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="breadcrumb">
+                            <li><a href="javascript:;"><i class="fa fa-home"></i>主页</a></li>
+                            <li>»</li>
+                            <li><a href="javascript:;">图书馆</a></li>
+                            <li>»</li>
+                            <li class="active">数据</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">通告</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="normalHiddenPanel(0,this)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="alert alert-success fade flex-panel-between">
+                                    <span><strong>成功!</strong>你刚刚成功了。</span>
+                                    <button class="close-ms" onclick="hiddenAlert(this)"><i
+                                            class="fa fa-times"></i></button>
+                                </div>
+                                <div class="alert alert-info fade flex-panel-between">
+                                    <span><strong>恭喜!</strong>你脸色发青了。</span>
+                                    <button class="close-ms" onclick="hiddenAlert(this)"><i
+                                            class="fa fa-times"></i></button>
+                                </div>
+                                <div class="alert alert-warning fade flex-panel-between">
+                                    <span> <strong>小心!</strong>这是一个警告。你应该小心。</span>
+                                    <button class="close-ms" onclick="hiddenAlert(this)"><i
+                                            class="fa fa-times"></i></button>
+                                </div>
+                                <div class="alert alert-danger fade flex-panel-between">
+                                    <span><strong>这是红色而它代表着致命。</strong>你最好离开红色区域。</span>
+                                    <button class="close-ms" onclick="hiddenAlert(this)"><i
+                                            class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">进度条</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="normalHiddenPanel(1,this)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar set60"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-pink set40"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-yellow set55"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-orange set60"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-green set35"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-pink-new set70"></div>
+                                </div>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-valvet set75"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">弹出窗口上徘徊</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="normalHiddenPanel(2,this)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="blue-btn-out">
+                                    <button>顶部</button><button>底部</button><button>右边</button><button>左边</button>
+
+                                </div>
+                                <div class="white-btn-out">
+                                    <button>顶部</button><button>底部</button><button>左边</button><button>右边</button>
+                                </div>
+                            </div>
+                            <div class="popover top">
+                                <div class="top-arrows"></div>
+                                <div class="popover-title">弹窗在顶部</div>
+                                <div class="popover-content">这里有一些惊人的内容。它很迷人。对吧?</div>
+                            </div>
+                            <div class="popover bottom">
+                                <div class="bottom-arrows"></div>
+                                <div class="popover-title">弹窗在底部</div>
+                                <div class="popover-content">矢状位上矢状位上矢状位上矢状位。</div>
+                            </div>
+                            <div class="popover right">
+                                    <div class="right-arrows"></div>
+                                    <div class="popover-title">弹窗在右边</div>
+                                    <div class="popover-content">矢状位上矢状位上矢状位上矢状位。</div>
+                                </div>
+                            <div class="popover left">
+                                <div class="left-arrows"></div>
+                                <div class="popover-title">弹窗在左边</div>
+                                <div class="popover-content">矢状位上矢状位上矢状位上矢状位。</div>
+                            </div>
+                            <div class="tooltip top">工具提示在上面
+                                <div class="bottom-arrows"></div>
+                            </div>
+                            <div class="tooltip bottom">工具提示在下面
+                                <div class="top-arrows"></div>
+                            </div>
+                            <div class="tooltip right">工具提示在左边
+                                <div class="left-arrows"></div>
+                            </div>
+                            <div class="tooltip left">工具提示在右边
+                                <div class="right-arrows"></div>
+                            </div>
+                        </section>
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">条纹进度条</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="normalHiddenPanel(3,this)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="progress progress-striped active progress-sm">
+                                    <div class="progress-bar progress-bar set40"></div>
+                                </div>
+                                <div class="progress progress-striped active progress-sm">
+                                    <div class="progress-bar progress-bar-pink set20"></div>
+                                </div>
+                                <div class="progress progress-striped active progress-sm">
+                                    <div class="progress-bar progress-bar-yellow set60"></div>
+                                </div>
+                                <div class="progress progress-striped active progress-sm">
+                                    <div class="progress-bar progress-bar-green set80"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">标记和徽章</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="normalHiddenPanel(4,this)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <p class="text-muted text-center">使用下面提到的任何修饰符类来更改标签的外观。</p>
+                                <p class="text-center">
+                                    <span class="label label-default">标签</span>
+                                    <span class="label label-primary">主要的</span>
+                                    <span class="label label-success">成功</span>
+                                    <span class="label label-info">信息</span>
+                                </p>
+                                <p class="text-center">
+                                    <span class="label label-inverse">相反</span>
+                                    <span class="label label-warning">警告</span>
+                                    <span class="label label-danger">危险</span>
+                                </p>
+                                <div class="highlight">
+                                    <pre><code class="html"><span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-default"</span><span class="nt">></span>label<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-primary"</span><span class="nt">></span>Primary<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-success"</span><span class="nt">></span>Success<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-info"</span><span class="nt">></span>info<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-inverse"</span><span class="nt">></span>Inverse<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-warning"</span><span class="nt">></span>Warning<span class="nt">&lt;/span></span>
+<span class="nt">&lt;span </span><span class="na">class=</span><span class="s">"label label-danger"</span><span class="nt">></span>Danger<span class="nt">&lt;/span></span></code></pre>
+                                </div>
+                                <p class="text-muted text-center bottom-10">徽章</p>
+                                <p class="text-muted text-center bottom-10">
+                                    通过向链接、引导导航等添加<code>&lt;span class="badge"></code>，可以轻松突出显示新的或未读的项。
+                                </p>
+                                <p class="m-bot-none">
+                                    <span class="badge bg">5</span>
+                                    <span class="badge bg-primary">10</span>
+                                    <span class="badge bg-success">15</span>
+                                    <span class="badge bg-info">20</span>
+                                    <span class="badge bg-inverse">25</span>
+                                    <span class="badge bg-warning">30</span>
+                                    <span class="badge bg-important">35</span>
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <!-- <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">环形图</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick="hiddenPanel(5)"><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div> -->
+                            <div class="panel-body">
+                                <div style="overflow: hidden">
+                                    <ul class="pagination pagination-lg">
+                                        <li><a href="javascript:;">«</a></li>
+                                        <li><a href="javascript:;">1</a></li>
+                                        <li><a href="javascript:;">2</a></li>
+                                        <li><a href="javascript:;">3</a></li>
+                                        <li><a href="javascript:;">4</a></li>
+                                        <li><a href="javascript:;">5</a></li>
+                                        <li><a href="javascript:;">»</a></li>
+                                    </ul>
+                                </div>
+                                <div style="overflow: hidden">
+                                    <ul class="pagination">
+                                        <li><a href="javascript:;">«</a></li>
+                                        <li><a href="javascript:;">1</a></li>
+                                        <li><a href="javascript:;">2</a></li>
+                                        <li><a href="javascript:;">3</a></li>
+                                        <li><a href="javascript:;">4</a></li>
+                                        <li><a href="javascript:;">5</a></li>
+                                        <li><a href="javascript:;">»</a></li>
+                                    </ul>
+                                </div>
+                                <div style="overflow: hidden">
+                                    <ul class="pagination pagination-sm">
+                                        <li><a href="javascript:;">«</a></li>
+                                        <li><a href="javascript:;">1</a></li>
+                                        <li><a href="javascript:;">2</a></li>
+                                        <li><a href="javascript:;">3</a></li>
+                                        <li><a href="javascript:;">4</a></li>
+                                        <li><a href="javascript:;">5</a></li>
+                                        <li><a href="javascript:;">»</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-body">
+                                <!-- 轮播图 -->
+                            </div>
+                        </section>
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between black-font">
+                                对话框
+                            </div>
+                            <div class="panel-body">
+                                <a class="btn btn-success" href="javascript:;" onclick="forget()">对话框</a>
+                                <a class="btn btn-warning" href="javascript:;" onclick="forget2()">确认</a>
+                                <a class="btn btn-danger" href="javascript:;" onclick="forget3()">警惕！</a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between">
+                                <span class="label label-primary">铺砂机通知</span>
+                                <div class="tools">
+                                    <a class="show-panel-btn" href="javascript:;" onclick='normalHiddenPanel(8,this)'><i
+                                            class="fa fa-chevron-down"></i></a>
+                                    <a href="javascript:;" onclick="deleteFather(this)"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <p class="text-muted text-left bottom-10">
+                                    点击下面的按钮查看。
+                                </p>
+                                <div>
+                                    <a class="btn btn-default" href="javascript:;">正规</a>
+                                    <a class="btn btn-success " href="javascript:;">粘的</a>
+                                    <a class="btn btn-info" href="javascript:;">无形象的</a>
+                                    <a class="btn btn-warning" href="javascript:;">变亮</a>
+                                    <a class="btn btn-primary" href="javascript:;">麦克斯3</a>
+                                    <a class="btn btn-danger" href="javascript:;">删除所有</a>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between tab-bg-dark-navy-blue">
+                                <ul class="nav nav-tabs">
+                                    <li><a class="active" href="javascript:;" onclick="changeTab(0,0)">主页</a></li>
+                                    <li><a href="javascript:;" onclick="changeTab(0,1)">关于</a></li>
+                                    <li><a href="javascript:;" onclick="changeTab(0,2)">轮廓</a></li>
+                                    <li><a href="javascript:;" onclick="changeTab(0,3)">联系</a></li>
+                                </ul>
+                            </div>
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div id='home' class="tab-pane active">主页</div>
+                                    <div id="about" class="tab-pane">关于</div>
+                                    <div id="profile" class="tab-pane">轮廓</div>
+                                    <div id="contact" class="tab-pane">联系</div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="panel">
+                            <div class="panel-header flex-panel-between tab-bg-dark-navy-blue">
+                                <ul class="nav nav-tabs">
+                                    <li><a class="active" href="javascript:;" onclick="changeTab(1,0)"><i
+                                                class="fa fa-home"></i></a></li>
+                                    <li><a href="javascript:;" onclick="changeTab(1,1)"><i class="fa fa-user"></i>关于</a>
+                                    </li>
+                                    <li><a href="javascript:;" onclick="changeTab(1,2)"><i
+                                                class="fa fa-envelope-o"></i>联系</a></li>
+                                </ul>
+                            </div>
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div id='home-2' class="tab-pane active">主页</div>
+                                    <div id="about-2" class="tab-pane">关于</div>
+                                    <div id="contact-2" class="tab-pane">联系</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="wrap">
+            <div id="modal" class="modal fadee">
+                <div id="modal-dialog" class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>弹框标题</h4>
+                            <button class="close" type="button">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>弹框内容</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn-default" type="button">取消</button>
+                            <button class="btn-success" type="button">保存改变</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal1" class="modal fadee">
+                <div id="modal-dialog" class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>弹框标题</h4>
+                            <button class="close" type="button">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>弹框内容</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn-default" style="margin-right: 10px" type="button">取消</button>
+                            <button class="btn btn-warning" type="button">确认</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modal2" class="modal fadee">
+                <div id="modal-dialog" class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>弹框标题</h4>
+                            <button class="close" type="button">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>弹框内容</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" type="button">确认</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            2013 © Olive Admin by <a href="javascript:;" target="_blank">
+                Olive Enterprise
+            </a>
+            <a class="goto-top" href="#">
+                <i class="fa fa-angle-up"></i>
+            </a>
+        </footer>
+    </section>
+    <script src="js/leftNav.js"></script>
+    <script src="js/headerNormal.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/normalHiddenPanel.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/alert.js"></script>
+</body>
+
+</html>

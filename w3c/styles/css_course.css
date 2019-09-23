@@ -1,0 +1,15 @@
+.intro{
+    padding: 45px 0px;
+}
+
+.intro p{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    margin-top: 20px;
+    color: #3f3f3f;
+}
+
+.intro p a{
+    font-size: 24px;
+}
+
